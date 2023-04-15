@@ -1,0 +1,30 @@
+.header {
+  background: #282828;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.header__logo {
+  font-size: 24px;
+  color: skyblue;
+}
+.header__underlist {
+  list-style-type: none;
+}
+.header__list {
+  display: inline-block;
+  padding: 10px 20px;
+}
+.header__items {
+  text-decoration: none;
+  color: white;
+}
+.header__items--active1 {
+  background: red;
+}
+.header__items--active2 {
+  background: blue;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+.header{
+    background: #282828;
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    &__logo{
+            font-size: 24px;
+            color: skyblue;
+        }
+    &__underlist{
+            list-style-type: none;
+        }
+    &__list{
+            display: inline-block;
+            padding: 10px 20px;
+        }
+    &__items{
+            text-decoration: none;
+            color: white;
+            &--active1{
+                background: red;
+            }
+            &--active2{background: blue;}
+        }
+}
